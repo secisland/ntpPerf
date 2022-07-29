@@ -1,0 +1,11 @@
+ntp:
+  serverIp: 192.168.1.1
+perf:
+  totalThread: 10
+  totalRquestPerThread: 1000
+  caseId: 3
+log:
+  logFile: perf.log
+  maxAgeHours: 72
+  rotationHours: 24
+  level: debug
